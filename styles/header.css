@@ -1,0 +1,22 @@
+.header {
+    position: sticky;
+    background-color: orange;
+    z-index: 999;
+
+}
+
+.header .header__image {
+    width: 130px;
+}
+
+.header .header__image img {
+    width: 100%;
+}
+
+.header .header__nav .header__nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
