@@ -1,7 +1,19 @@
 .btn {
     color: black;
     background-color: red;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     border: 1px solid;
+   
+}
+
+.xs {
+    display: none;
+}
+
+@media  (768px <= width) {
+    .xs {
+        display: block;
+    }
+
 }

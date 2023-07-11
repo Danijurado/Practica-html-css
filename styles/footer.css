@@ -1,12 +1,26 @@
 .footer {
-    width: 100%;
-    text-align: center;
-    padding: 40px;
     background-color: var(--main-bg-color);
 }
 
-.footer .box {
-    font-weight: 500;
-    text-transform: capitalize;
-    margin: 0;
+.footer .group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__redsocial__iconos {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer__redsocial__iconos img {
+    height: 24px;
+    width: 24px;
+}
+
+.footer__text {
+    display: flex;
+    justify-content: center;
 }
