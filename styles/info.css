@@ -1,0 +1,22 @@
+
+
+.bg {
+    position: absolute;
+   height: 100%;
+   width: 100%;
+    background-image: url(../imagenes/fondo_info.png);
+    background-repeat: repeat;
+    z-index: 0;
+    opacity: 0.2;
+    
+}
+
+.info {
+    position: relative;
+}
+
+.content {
+    z-index: 2;
+    font-weight: bold;
+    padding: 16px;
+}

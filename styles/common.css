@@ -4,6 +4,7 @@
     --main-text-color: rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     --main-bg-color: orange;
+    font-size: 15px;
 }
 
 
@@ -11,4 +12,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+main {
+    position: relative;
 }
