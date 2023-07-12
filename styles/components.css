@@ -7,6 +7,10 @@
    
 }
 
+.btn:hover{
+    background-color: blue;
+}
+
 .xs {
     display: none;
 }

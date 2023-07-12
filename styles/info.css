@@ -6,12 +6,12 @@
    width: 100%;
     background-image: url(../imagenes/fondo_info.png);
     background-repeat: repeat;
-    z-index: 0;
+    z-index: -1;
     opacity: 0.2;
     
 }
 
-.info {
+.info  {
     position: relative;
 }
 

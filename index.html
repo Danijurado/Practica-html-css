@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/skills.css">
     <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/banner.css">
     
 </head>
 <body>
@@ -30,9 +31,8 @@
         </nav>
     </header>
     <main>
-        <div class="bg">
-    
-        </div>
+        <div class="bg"></div>
+        
         <section class="info">
             <div class="content">
                 <h2>Son Goku</h2>
@@ -42,36 +42,91 @@
             
         </section>
         <section class="skills">
+            
             <div class="skill">
                 <span>Fuerza</span>
                 <div class="progres-bar">
-                    <div class="hability"></div>
+                    <div class="hability__fuerza"></div>
                 </div>
 
             </div>
             <div class="skill">
-                <span>Fuerza</span>
+                <span>Velocidad</span>
                 <div class="progres-bar">
-                    <div class="hability"></div>
+                    <div class="hability__velocidad"></div>
                 </div>
 
             </div>
             <div class="skill">
-                <span>Fuerza</span>
+                <span>Inteligencia</span>
                 <div class="progres-bar">
-                    <div class="hability"></div>
+                    <div class="hability__inteligencia"></div>
                 </div>
 
             </div>
             <div class="skill">
-                <span>Fuerza</span>
+                <span>Defensa</span>
                 <div class="progres-bar">
-                    <div class="hability"></div>
+                    <div class="hability__defensa"></div>
                 </div>
 
             </div>
 
         </section>
+        <section class="banner">
+            <div class="banner__image"></div>
+            <div class="banner__content">
+                <h2>Goku</h2>
+                <p>El guerrero mas poderoso de todos los tiempos</p>
+            </div>
+        </section>
+        <div class="card">
+            <form class="form" method="post" action="registro.html">
+                <div class="form__element">
+                    <label class="form__label" for="nombre">Nombre</label>
+                    <input class="form__input" 
+                            type="text"
+                            id="name"
+                            name="nombre"
+                            required>
+                </div>
+                <div class="form__element">
+                    <label class="form__label" for="apellido">Apellidos</label>
+                    <input class="form__input" 
+                            type="text"
+                            id="apellido"
+                            name="apellido"
+                            required>
+                </div>
+                <div class="form__element">
+                    <label class="form__label" for="phone">Telefono</label>
+                    <input class="form__input"
+                        type="tel" 
+                        name="phone" 
+                        id="phone"
+                        placeholder="Format is 600-600-1234"
+                        title="Format is 600-600-1234" 
+                        required
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                    >
+                </div>
+                <div class="form__element">
+                    <fieldset>
+                        <legend>¿Como me conociste?</legend>
+                        <div>
+                            <label for="universidad">Universidad</label>
+                            <input type="radio" id="universidad" name="category"  value="universidad">
+                            <label for="keepcoding">Keepcoding Kick-off</label>
+                            <input type="radio" id="keepcoding" name="category"  value="keepcoding">
+                            <label for="colegio">Colegio</label>
+                            <input type="radio" id="colegio" name="category"  value="colegio">
+                            <label for="github">Github</label>
+                            <input type="radio" id="github" name="category"  value="github">
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
     </main>
     <footer class="footer">
        <div class="grupe">

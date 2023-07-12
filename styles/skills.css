@@ -1,20 +1,51 @@
 .progres-bar {
     width: 100%;
-    height: 30px;
+    height: 20px;
     background-color: transparent;
-    border: 1px solid blue;
+    border: 1px solid black;
     position: relative;
     box-sizing: content-box;
 }
 
-.hability {
+.hability__fuerza {
     position: absolute;
     animation: slidein 2s;
-    height: 30px;
-    width: 30%;
+    height: 20px;
+    width: 90%;
     top: 0;
     left: 0;
     background-color: red;
+    --fill: 90%;
+}
+.hability__velocidad {
+    position: absolute;
+    animation: slidein 2s;
+    height: 20px;
+    width: 70%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    --fill: 70%;
+}
+.hability__inteligencia {
+    position: absolute;
+    animation: slidein 2s;
+    height: 20px;
+    width: 60%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    --fill: 60%;
+}
+.hability__defensa {
+    position: absolute;
+    animation: slidein 2s;
+    height: 20px;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    --fill: 50%;
 }
 
 .skill {
@@ -24,6 +55,7 @@
     width: 100%;
     
 }
+
 
 .skills {
     display: flex;
@@ -36,14 +68,13 @@
     }
 
     to {
-        width: 30%;
+        width: --fill 
     }
 }
+
 
 @media only screen and (min-device-width: 768px) {
     .skill {
         width: 50%;
     }
-
-    
 }
