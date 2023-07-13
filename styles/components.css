@@ -7,9 +7,54 @@
    
 }
 
-.btn:hover{
-    background-color: blue;
+
+@media (hover: hover) {
+    .btn {
+      transition: background-color 3s linear;
+    }
+    .btn:hover {
+      background-color: rgb(89, 89, 113);
+    }
+  }
+
+.btn.btn--secondary {
+    background-color: transparent;
+    border-color: var(--main-text-color);
 }
+
+.form__element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.form__element--checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.form__element--checkbox input[type="checkbox"] {
+    margin: 5px 5px;
+}
+
+.form__label {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.form__input {
+    padding: 10px 12px;
+    border-radius: 5px;
+    background: rgb(135, 133, 133);
+    border: none;
+    color: black;
+}
+
+input::placeholder {
+    color: rgb(173, 175, 177);
+}
+
 
 .xs {
     display: none;
@@ -21,3 +66,5 @@
     }
 
 }
+
+
