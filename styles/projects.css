@@ -1,0 +1,26 @@
+.projects {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.projects__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.projects .projects__list img {
+    width: 100%;
+
+}
+
+.projects .projects__list figure {
+    margin: 0;
+}
+
+@media (min-width: 48em) {
+    .shows__list {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }

@@ -7,6 +7,10 @@
     box-sizing: content-box;
 }
 
+.title__skills {
+    padding: 16px;
+}
+
 .hability__fuerza {
     position: absolute;
     animation: slidein 2s;
