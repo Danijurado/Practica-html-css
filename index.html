@@ -1,174 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Son Goku</title>
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/components.css">
-    <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/info.css">
-    <link rel="stylesheet" href="styles/banner.css">
-    <link rel="stylesheet" href="styles/form.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/info.css" />
+    <link rel="stylesheet" href="styles/banner.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+
+  <body>
     <header class="header">
-        <div class="header__image">
-            <img src="imagenes/logo.png" alt="logo DBZ">
-        </div>
-        <nav class="header__nav">
-            <ul class="header__nav__list">
-                <li class="header__nav__list__btn">
-                    <a class="btn" href="projects.html">Proyectos</a>
-                </li>
-                <li class="header__nav__list__btn">
-                    <a class="btn xs" href="#contacto">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+      <div class="header__image">
+        <img src="imagenes/logo.png" alt="logo DBZ" />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__btn">
+            <a class="btn" href="projects.html">Proyectos</a>
+          </li>
+          <li class="header__nav__list__btn">
+            <a class="btn xs" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="bg"></div>
-        
-        <section class="info">
-            <div class="content">
-                <h2>Son Goku</h2>
-                <p>Fiel a su raza, Goku posee un espíritu combativo sumamente marcado, y es incapaz de resistirse a pelear con alguien que le parezca fuerte aun en los momentos más inoportunos. Es extremadamente competitivo y entrena constantemente, ya que nunca está satisfecho con su fuerza actual y siempre busca ir más allá.</p>
-            </div>
-            
-            
-        </section>
-        <div class="title__skills">
-            <h2>Mis skills</h2>
+      <div class="bg"></div>
+
+      <section class="info">
+        <div class="content">
+          <h2>Son Goku</h2>
+          <p>
+            Fiel a su raza, Goku posee un espíritu combativo sumamente marcado,
+            y es incapaz de resistirse a pelear con alguien que le parezca
+            fuerte aun en los momentos más inoportunos. Es extremadamente
+            competitivo y entrena constantemente, ya que nunca está satisfecho
+            con su fuerza actual y siempre busca ir más allá.
+          </p>
         </div>
-        <section class="skills">
-            
-            <div class="skill">
-                <span>Fuerza</span>
-                <div class="progres-bar">
-                    <div class="hability__fuerza"></div>
-                </div>
-
-            </div>
-            <div class="skill">
-                <span>Velocidad</span>
-                <div class="progres-bar">
-                    <div class="hability__velocidad"></div>
-                </div>
-
-            </div>
-            <div class="skill">
-                <span>Inteligencia</span>
-                <div class="progres-bar">
-                    <div class="hability__inteligencia"></div>
-                </div>
-
-            </div>
-            <div class="skill">
-                <span>Defensa</span>
-                <div class="progres-bar">
-                    <div class="hability__defensa"></div>
-                </div>
-
-            </div>
-
-        </section>
-        <section class="banner">
-            <div class="banner__image"></div>
-            <div class="banner__content">
-                <h2>Goku</h2>
-                <p>El guerrero mas poderoso de todos los tiempos</p>
-            </div>
-        </section>
-        <div class="card">
-            <form class="form" method="post" action="registro.html">
-                <div class="form__element">
-                    <label class="form__label" for="nombre">Nombre</label>
-                    <input class="form__input" 
-                            type="text"
-                            id="name"
-                            name="nombre"
-                            required
-                            placeholder="Nombre">
-                </div>
-                <div class="form__element">
-                    <label class="form__label" for="apellido">Apellidos</label>
-                    <input class="form__input" 
-                            type="text"
-                            id="apellido"
-                            name="apellido"
-                            required
-                            placeholder="Apellidos">
-                </div>
-                <div class="form__element">
-                    <label class="form__label" for="phone">Telefono</label>
-                    <input class="form__input"
-                        type="tel" 
-                        name="phone" 
-                        id="phone"
-                        placeholder="Format is 600-600-123"
-                        title="Format is 600-600-123" 
-                        required
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
-                    >
-                </div>
-                <div class="form__element">
-                    <fieldset>
-                        <legend>¿Como me conociste?</legend>
-                        <div>
-                            <label for="universidad">Universidad</label>
-                            <input type="radio" id="universidad" name="category"  value="universidad">
-                            <label for="keepcoding">Keepcoding Kick-off</label>
-                            <input type="radio" id="keepcoding" name="category"  value="keepcoding">
-                            <label for="colegio">Colegio</label>
-                            <input type="radio" id="colegio" name="category"  value="colegio">
-                            <label for="github">Github</label>
-                            <input type="radio" id="github" name="category"  value="github">
-                        </div>
-                    </fieldset>
-                </div>
-                <div class="form__element">
-                    <label class="form__label" for="github">Tag Github</label>
-                    <input class="form__input" type="text" name="github" id="github-tag" pattern="^@[^\s]+" placeholder="@username">
-                </div>
-                <div class="form__element">
-                    <label class="form__label" for="information">Informacion adicional</label>
-                    <textarea class="form__input" name="information" id="information" maxlength="180" required></textarea>
-                </div>
-                <div class="form__element form__element--checkbox">
-                    <label for="remember">Acceso a Newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter" checked>
-                 </div>
-                 <div>
-                    <button class="btn btn--secondary" type="reset">Reset</button>
-                    <input class="btn" type="submit" value="Confirm">
-                </div>
-            </form>
+      </section>
+      <div class="title__skills">
+        <h2>Mis skills</h2>
+      </div>
+      <section class="skills">
+        <div class="skill">
+          <span>Fuerza</span>
+          <div class="progres-bar">
+            <div class="hability__fuerza"></div>
+          </div>
         </div>
+        <div class="skill">
+          <span>Velocidad</span>
+          <div class="progres-bar">
+            <div class="hability__velocidad"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Inteligencia</span>
+          <div class="progres-bar">
+            <div class="hability__inteligencia"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>Defensa</span>
+          <div class="progres-bar">
+            <div class="hability__defensa"></div>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="banner__image"></div>
+        <div class="banner__content">
+          <h2>Goku</h2>
+          <p>El guerrero mas poderoso de todos los tiempos</p>
+        </div>
+      </section>
+      <div class="card">
+        <form class="form" method="post" action="registro.html">
+          <div class="form__element">
+            <label class="form__label" for="nombre">Nombre</label>
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              name="nombre"
+              required
+              placeholder="Nombre"
+            />
+          </div>
+          <div class="form__element">
+            <label class="form__label" for="apellido">Apellidos</label>
+            <input
+              class="form__input"
+              type="text"
+              id="apellido"
+              name="apellido"
+              required
+              placeholder="Apellidos"
+            />
+          </div>
+          <div class="form__element">
+            <label class="form__label" for="phone">Telefono</label>
+            <input
+              class="form__input"
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Format is 600-600-123"
+              title="Format is 600-600-123"
+              required
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            />
+          </div>
+          <div class="form__element">
+            <fieldset>
+              <legend>¿Como me conociste?</legend>
+              <div>
+                <label for="universidad">Universidad</label>
+                <input
+                  type="radio"
+                  id="universidad"
+                  name="category"
+                  value="universidad"
+                />
+                <label for="keepcoding">Keepcoding Kick-off</label>
+                <input
+                  type="radio"
+                  id="keepcoding"
+                  name="category"
+                  value="keepcoding"
+                />
+                <label for="colegio">Colegio</label>
+                <input
+                  type="radio"
+                  id="colegio"
+                  name="category"
+                  value="colegio"
+                />
+                <label for="github">Github</label>
+                <input
+                  type="radio"
+                  id="github"
+                  name="category"
+                  value="github"
+                />
+              </div>
+            </fieldset>
+          </div>
+          <div class="form__element">
+            <label class="form__label" for="github">Tag Github</label>
+            <input
+              class="form__input"
+              type="text"
+              name="github"
+              id="github-tag"
+              pattern="^@[^\s]+"
+              placeholder="@username"
+            />
+          </div>
+          <div class="form__element">
+            <label class="form__label" for="information"
+              >Informacion adicional</label
+            >
+            <textarea
+              class="form__input"
+              name="information"
+              id="information"
+              maxlength="180"
+              required
+            ></textarea>
+          </div>
+          <div class="form__element form__element--checkbox">
+            <label for="remember">Acceso a Newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter" checked />
+          </div>
+          <div>
+            <button class="btn btn--secondary" type="reset">Reset</button>
+            <input class="btn" type="submit" value="Confirm" />
+          </div>
+        </form>
+      </div>
     </main>
     <footer class="footer">
-       <div class="grupe">
+      <div class="grupe">
         <div class="footer__redsocial">
-            <ul class="footer__redsocial__iconos">
-                <a href="https://www.facebook.com/SonGokuuu/?locale=es_ES">
-                    <img src="imagenes/logo-facebook.png" alt="facebook">
-                </a>
-                <a href="https://www.linkedin.com/in/daniel-jurado-p%C3%A9rez-26052a266/">
-                    <img src="imagenes/logo-linkedin.png" alt="linkedin">
-                </a>
-                <a href="https://www.youtube.com/watch?v=1yWWTtRjH6M&ab_channel=TheBreak">
-                    <img src="imagenes/logo-youtube.png" alt="youtube">
-                </a>
-            </ul>
+          <ul class="footer__redsocial__iconos">
+            <a href="https://www.facebook.com/SonGokuuu/?locale=es_ES">
+              <img src="imagenes/logo-facebook.png" alt="facebook" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/daniel-jurado-p%C3%A9rez-26052a266/"
+            >
+              <img src="imagenes/logo-linkedin.png" alt="linkedin" />
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=1yWWTtRjH6M&ab_channel=TheBreak"
+            >
+              <img src="imagenes/logo-youtube.png" alt="youtube" />
+            </a>
+          </ul>
         </div>
         <div class="footer__text">
-            <p>2023 Daniel Jurado</p>
+          <p>2023 Daniel Jurado</p>
         </div>
-       </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
