@@ -30,7 +30,7 @@ Las contribuciones son bienvenidas. Si deseas mejorar o agregar características
 Proyecto desarrollado con html y css, para el tipo de letra hemos usado google fonts, los estilos se han implementado con archivos css, cada archivo se ha realizado por separado según la función que realiza.
 El proyecto usa imagenes y video las cuales se han adaptado segun la resolución del cliente para un mejor visionado y funcionalidad.
 
-En la página principal __index.html__ nos encontamos con una barra de navegación donde tenemos el logo y los botones de navegación, despues nos encontramos descripción de el personaje, el siguiente bloque son skills donde tenemos las barras de progreso animadas, a continuación encontramos el formulario el cual tiene todas las validaciones necesarias, y por ultimo el footer con enlaces a redes sociales.
+En la página principal __index.html__ nos encontamos con una barra de navegación donde tenemos el logo y los botones de navegación, despues nos encontramos descripción del personaje. El siguiente bloque son skills donde tenemos las barras de progreso animadas, a continuación encontramos el formulario, el cual tiene todas las validaciones necesarias y por último el footer con enlaces a redes sociales.
 En la página secundaria __projects.html__ encontramos el video y las imagenes de los proyectos.
 
 
